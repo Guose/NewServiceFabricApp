@@ -1,0 +1,6 @@
+@FirstStatelessGateway_HostAddress = http://localhost:5126
+
+GET {{FirstStatelessGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

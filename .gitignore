@@ -1,0 +1,31 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files and other build artifacts
+*.log
+*.log.*
+*.zip
+*.rar
+*.gz
+*.exe
+*.dll
+*.so
+*.dylib
+*.DS_Store
+
+# Ignore project build directories
+*/[Bb]in/
+*/[Oo]bj/
+
+# Ignore environment-specific files
+.env
+
+# Ignore Visual Studio Code settings
+.vscode/
+.vs/
+
+# Ignore JetBrains IDE settings
+.idea/
+
+# Ignore npm debug log
+npm-debug.log
